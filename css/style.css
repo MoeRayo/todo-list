@@ -71,3 +71,26 @@ li{
     background-color: #ffffff;
     color: #000000;
 }
+@media (max-width:800px){
+    #wrapper{
+        width: 85%;
+        margin:6rem auto;
+        padding:3rem 2rem;
+    }
+    #input{
+        width: 100%;
+        padding:.7rem;
+        border: 1px solid #3a3838;
+        border-radius: 5px;
+        margin-right: .6rem;
+    
+    }
+    #inputbutton{
+        padding:.7rem;
+        cursor: pointer;
+        border: 2px solid #3a3838;
+        border-radius: 5px;
+        font-family: cursive;
+        width: 100%;
+    }
+}
