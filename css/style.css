@@ -82,7 +82,7 @@ li{
         padding:.7rem;
         border: 1px solid #3a3838;
         border-radius: 5px;
-        margin-right: .6rem;
+        margin-bottom: .8rem;
     
     }
     #inputbutton{
@@ -90,7 +90,11 @@ li{
         cursor: pointer;
         border: 2px solid #3a3838;
         border-radius: 5px;
-        font-family: cursive;
+
         width: 100%;
     }
+    li{
+    background-color:#00000080;
+    width: 100%;
+    margin:
 }
