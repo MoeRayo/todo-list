@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: inherit;
+    background-color: #000000;
+}
+#wrapper{
+    width: 50%;
+    margin:10rem auto;
+    padding: 4rem 2rem;
+    background-color: #5a5656;
+    text-align: center;
+    /* height: 50vh; */
+}
+h1{
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+}
+#input{
+    width: 40%;
+    padding:.7rem;
+    border: 1px solid #3a3838;
+    border-radius: 5px;
+    margin-right: .6rem;
+
+}
+#inputbutton{
+    padding:.7rem;
+    cursor: pointer;
+    border: 2px solid #3a3838;
+    border-radius: 5px;
+}
+#inputbutton:hover,#inputbutton:active{
+    background-color:rgb(195, 188, 188);
+}
+ul{
+    list-style-type: none;
+}
+#box{
+    margin-bottom: 2rem;
+}
+li{
+    background-color:#00000080;
+    width: 57%;
+    margin: 1rem auto;
+    padding: 1rem .8rem;
+    text-align: left;
+    border-radius: 3px;
+    color: #ffffff;
+    position: relative;
+}
+.closebutton{
+    padding: .3rem;
+    background-color: #00000057;
+    border: none;
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #ffffff;
+}
+.closebutton:hover,.closebutton:active{
+    background-color: #ffffff;
+    color: #000000;
+}
