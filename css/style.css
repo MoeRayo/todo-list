@@ -20,6 +20,7 @@ body{
 h1{
     margin-bottom: 2.5rem;
     color: #ffffff;
+    font-family: 'Caveat', cursive;
 }
 #input{
     width: 40%;
@@ -34,6 +35,7 @@ h1{
     cursor: pointer;
     border: 2px solid #3a3838;
     border-radius: 5px;
+    font-family: cursive;
 }
 #inputbutton:hover,#inputbutton:active{
     background-color:rgb(195, 188, 188);
