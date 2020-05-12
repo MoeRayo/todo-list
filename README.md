@@ -1,5 +1,6 @@
 # To-do List
 
+![Design preview for my Todo App](./images/ToDoList.png)
 
 
 ## Welcome! 👋
