@@ -10,12 +10,11 @@ body{
     background-color: #000000;
 }
 #wrapper{
-    width: 50%;
+    width: 60%;
     margin:10rem auto;
     padding: 4rem 2rem;
     background-color: #5a5656;
     text-align: center;
-    /* height: 50vh; */
 }
 h1{
     margin-bottom: 2.5rem;
@@ -23,7 +22,7 @@ h1{
     font-family: 'Caveat', cursive;
 }
 #input{
-    width: 40%;
+    width: 60%;
     padding:.7rem;
     border: 1px solid #3a3838;
     border-radius: 5px;
@@ -35,7 +34,6 @@ h1{
     cursor: pointer;
     border: 2px solid #3a3838;
     border-radius: 5px;
-    font-family: cursive;
 }
 #inputbutton:hover,#inputbutton:active{
     background-color:rgb(195, 188, 188);
@@ -49,7 +47,7 @@ ul{
 }
 li{
     background-color:#00000080;
-    width: 57%;
+    width: 60%;
     margin: 1rem auto;
     padding: 1rem .8rem;
     text-align: left;
@@ -71,7 +69,54 @@ li{
     background-color: #ffffff;
     color: #000000;
 }
-@media (max-width:800px){
+/* Media queries */
+@media screen and (max-width:1200px) and (min-width:990px){
+    #wrapper{
+        width: 70%;
+    }
+    #input{
+        width: 63%;
+    }
+    li{
+        width: 63%;
+        }
+}
+@media screen and (max-width:989px) and (min-width:800px){
+    #wrapper{
+        width: 70%;
+    }
+    #input{
+    width: 65%;
+}
+li{
+    width: 65%;
+    }
+}
+@media screen and (max-width:799px) and (min-width:600px){
+    #wrapper{
+        width: 80%;
+        margin:6rem auto;
+        padding:3rem 2rem;
+    }
+    #input{
+        width: 80%;
+        padding:.7rem;
+        margin-bottom: .6rem;
+        margin-right: 0;
+    
+    }
+    #inputbutton{
+        padding:.7rem;
+        width: 80%;
+    }
+    li{
+        width: 80%;
+        }
+
+}
+
+
+@media (max-width:599px){
     #wrapper{
         width: 85%;
         margin:6rem auto;
@@ -80,21 +125,15 @@ li{
     #input{
         width: 100%;
         padding:.7rem;
-        border: 1px solid #3a3838;
-        border-radius: 5px;
-        margin-bottom: .8rem;
+        margin-bottom: .6rem;
+        margin-right: 0;
     
     }
     #inputbutton{
         padding:.7rem;
-        cursor: pointer;
-        border: 2px solid #3a3838;
-        border-radius: 5px;
-
         width: 100%;
     }
     li{
-    background-color:#00000080;
     width: 100%;
-    margin:
+    }
 }
